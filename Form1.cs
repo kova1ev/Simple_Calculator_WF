@@ -28,10 +28,6 @@ namespace CalculatorApp
 
         }
 
-        // удаляет результат ??
-        // сделать проверку деления на 0
-        // https://stackoverflow.com/questions/16209509/what-is-tostringn0-format    
-
         Operation Operation;  //enum операций
         bool DotPressed = false; // была нажата точка  или нет
         string s1;  // строка(число) 1
