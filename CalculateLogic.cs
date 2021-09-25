@@ -11,15 +11,15 @@ namespace CalculatorApp
     {
         static public string ChooseOperation(Operation op, string s1, string s2)
         {
-            if ((int)op == 1)
+            if (op == Operation.Add)
             {
                 return Sum(s1, s2);
             }
-            else if ((int)op == 2)
+            else if (op == Operation.Subtract)
             {
                 return Sub(s1, s2);
             }
-            else if ((int)op == 3)
+            else if (op == Operation.Multiply)
             {
                 return Mult(s1, s2);
             }
